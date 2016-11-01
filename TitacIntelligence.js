@@ -30,13 +30,13 @@ $(document).ready(function () {
         if (($("input[name='button7']").val()===joueur)&&($("input[name='button8']").val()===joueur)&&($("input[name='button9']").val()===joueur)) {
             alert(joueur+" vous avez gagné");
         }
-        if (($("input[name='button1']").val()===joueur)&&($("input[name='button3']").val()===joueur)&&($("input[name='button6']").val()===joueur)) {
+        if (($("input[name='button1']").val()===joueur)&&($("input[name='button4']").val()===joueur)&&($("input[name='button7']").val()===joueur)) {
             alert(joueur+" vous avez gagné");
         }
         if (($("input[name='button3']").val()===joueur)&&($("input[name='button6']").val()===joueur)&&($("input[name='button9']").val()===joueur)) {
             alert(joueur+" vous avez gagné");
         }
-        if (($("input[name='button1']").val()===joueur)&&($("input[name='button5']").val()===joueur)&&($("input[name='button8']").val()===joueur)) {
+        if (($("input[name='button1']").val()===joueur)&&($("input[name='button5']").val()===joueur)&&($("input[name='button9']").val()===joueur)) {
             alert(joueur+" vous avez gagné");
         }
         if (($("input[name='button3']").val()===joueur)&&($("input[name='button5']").val()===joueur)&&($("input[name='button7']").val()===joueur)) {
